@@ -27,10 +27,15 @@ from services.notification import notification_service
 
 # ─── App Initialization ──────────────────────────────────────────
 
-app = Flask(__name__)
+dist_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend", "dist")
+app = Flask(
+    __name__,
+    static_folder=dist_dir if os.path.exists(dist_dir) else None,
+    static_url_path="",
+)
 app.secret_key = Config.SECRET_KEY
 
-CORS(app, resources={r"/api/*": {"origins": Config.FRONTEND_URL}})
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
 # ─── Health Check ─────────────────────────────────────────────────
@@ -590,6 +595,25 @@ def test_notification():
     return jsonify({
         "success": success,
         "configured": notification_service.is_configured(),
+    })
+
+
+# ─── Frontend Catch-All Route ────────────────────────────────────
+
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_frontend(path):
+    """Serve the React frontend single-page application."""
+    if dist_dir and os.path.exists(dist_dir):
+        file_path = os.path.join(dist_dir, path)
+        if path and os.path.exists(file_path):
+            from flask import send_from_directory
+            return send_from_directory(dist_dir, path)
+        from flask import send_from_directory
+        return send_from_directory(dist_dir, "index.html")
+    return jsonify({
+        "message": "Email Management Agent API is running.",
+        "frontend_status": "Build frontend with 'npm run build' to serve UI from this server.",
     })
 
 
