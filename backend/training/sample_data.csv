@@ -1,0 +1,111 @@
+text,category
+"URGENT: Server is down and needs immediate attention. All systems affected. Please respond ASAP.",urgent
+"Action Required: Submit your project report by end of day today. This is the final deadline.",urgent
+"CRITICAL: Security breach detected in production. Immediate response needed from all team leads.",urgent
+"Emergency meeting scheduled for 3 PM today regarding the client escalation. Attendance mandatory.",urgent
+"Your assignment submission deadline is tomorrow. Please submit before 11:59 PM.",urgent
+"Reminder: Your visa application deadline is approaching. Documents needed by Friday.",urgent
+"URGENT: Payment overdue. Your account will be suspended if not resolved within 24 hours.",urgent
+"Time-sensitive: Board meeting rescheduled to today at 2 PM. Please confirm your attendance immediately.",urgent
+"Critical bug found in release v2.5. Rollback needed ASAP. All developers please join the call.",urgent
+"Final Notice: Insurance policy renewal expires today. Act immediately to avoid lapse in coverage.",urgent
+"ACTION REQUIRED: Complete your annual compliance training by end of business today.",urgent
+"Your flight has been cancelled. Please rebook immediately or contact support for alternatives.",urgent
+"Urgent: Lab equipment malfunction reported. Safety team needs to inspect before 5 PM.",urgent
+"DEADLINE TODAY: Research paper submission portal closes at midnight. Submit your final draft now.",urgent
+"Emergency: Water leak detected in server room B. Facilities team please respond immediately.",urgent
+"Time-critical: Client presentation moved to tomorrow morning. Slides need review tonight.",urgent
+"ASAP: Professor needs updated thesis draft before committee meeting tomorrow at 9 AM.",urgent
+"Immediate action: Your cloud instance is running out of storage. Upgrade or clean up now.",urgent
+"URGENT REMINDER: Exam registration closes in 2 hours. Complete your enrollment now.",urgent
+"Critical update required: Your software license expires today. Renew to avoid service interruption.",urgent
+"Hi team, here is the weekly project status update. All milestones are on track for Q3.",informational
+"Monthly newsletter: Check out our latest blog posts and community highlights.",informational
+"Meeting notes from today's standup: discussed sprint progress and upcoming releases.",informational
+"Your order #12345 has been shipped and will arrive by Thursday.",informational
+"Welcome to the team! Here are some resources to help you get started.",informational
+"FYI: The office will be closed next Monday for the national holiday.",informational
+"Your GitHub pull request #89 has been merged into the main branch.",informational
+"System maintenance scheduled for this weekend. Services may be briefly unavailable Saturday 2-4 AM.",informational
+"Quarterly earnings report is now available on the company intranet.",informational
+"Your subscription to the Data Science Weekly newsletter has been confirmed.",informational
+"Team lunch planned for Friday at noon. RSVP in the shared calendar.",informational
+"Updated company policies are now available in the HR portal. Please review at your convenience.",informational
+"Your cloud backup completed successfully. 15.2 GB backed up.",informational
+"New version of the project documentation is available on Confluence.",informational
+"Congratulations! Your paper has been accepted for presentation at the conference.",informational
+"Library notification: The book you reserved is now available for pickup.",informational
+"Your monthly bank statement for July is now available for download.",informational
+"Campus event: Guest lecture on Machine Learning this Wednesday at 4 PM in Hall A.",informational
+"IT Notice: New VPN client has been rolled out. Download instructions attached.",informational
+"Course registration for next semester opens on August 20th. Check the portal for available courses.",informational
+"Reminder: Team building event next Thursday. Details in the calendar invite.",informational
+"Your annual performance review summary is ready. Log in to the HR portal to view.",informational
+"Build #456 passed all tests. Deployment to staging is complete.",informational
+"Weather alert: Heavy rain expected this weekend. Plan outdoor activities accordingly.",informational
+"Your request for office supplies has been approved and will be delivered by Wednesday.",informational
+"Research lab results are ready for review. Access them through the lab management system.",informational
+"New parking policy effective from September 1st. Please read the updated guidelines.",informational
+"Weekly digest: 23 new commits, 5 issues closed, 3 new issues opened this week.",informational
+"Your certificate of completion for the Python Advanced course is now available.",informational
+"Department meeting minutes from Aug 5th are attached for your records.",informational
+"🎉 FLASH SALE: Up to 70% off on all electronics! Limited time only. Shop now!",promotional
+"Exclusive offer just for you: Get 3 months free on our premium plan. Click here to activate.",promotional
+"Don't miss out! Black Friday deals start early. Save up to 50% on everything.",promotional
+"Special discount code SAVE20 for 20% off your next purchase. Valid until Sunday.",promotional
+"Introducing our newest product line! Be the first to try it with a free trial.",promotional
+"You're invited to our webinar: '10 Tips to Boost Productivity'. Register free today!",promotional
+"Limited time offer: Upgrade your subscription for just $1/month for the first 3 months.",promotional
+"Congratulations! You've earned 500 bonus reward points. Redeem them before they expire.",promotional
+"New arrivals just dropped! Check out the latest collection in our online store.",promotional
+"FREE shipping on all orders over $25 this weekend only. Use code FREESHIP.",promotional
+"Your cart is waiting! Complete your purchase and get 15% off with code COMEBACK15.",promotional
+"Join thousands of happy customers! Try our service risk-free for 30 days.",promotional
+"Seasonal clearance sale starts now. Everything must go — prices slashed up to 80%!",promotional
+"Refer a friend and you both get $10 credit. Share your unique link today.",promotional
+"We miss you! Come back and enjoy an exclusive 25% off your next order.",promotional
+"Brand new course available: Master Data Science in 8 weeks. Early bird pricing available.",promotional
+"Unlock premium features at no extra cost — upgrade during our anniversary sale.",promotional
+"Last chance: Your coupon for a free dessert at our restaurant expires tonight!",promotional
+"You've been selected for an exclusive preview of our upcoming product launch.",promotional
+"Buy one, get one free on all beverages this Tuesday. Visit any location near you!",promotional
+"Don't forget! Your free trial of our cloud storage service ends in 3 days.",promotional
+"Massive summer sale: Save big on travel bookings this month only.",promotional
+"Get certified! Enroll in our professional certification program — now 40% off.",promotional
+"Win a free iPhone! Enter our monthly giveaway by filling out a quick survey.",promotional
+"Your loyalty rewards are piling up! Redeem 1000 points for a $10 gift card.",promotional
+"Exclusive member pricing on all fitness equipment. Log in to see your special deals.",promotional
+"Hot deal: Annual plan at monthly price. Save 60% when you switch today.",promotional
+"Just launched: AI-powered writing assistant. Start your free trial now.",promotional
+"Weekend flash deal: All online courses for just $9.99 each. 48 hours only!",promotional
+"Celebrate with us! 5th anniversary specials across all product categories.",promotional
+"Urgent: Please review and approve the budget proposal before the board meeting tomorrow at 10 AM.",urgent
+"IMPORTANT: Lab results indicate contamination. Do not use equipment in Room 204 until further notice.",urgent
+"Your scholarship application needs corrections. Resubmit by Friday or it will be rejected.",urgent
+"ALERT: Suspicious login detected on your account from an unknown device. Change your password now.",urgent
+"Teacher needs your attendance correction form TODAY. Office closes at 4 PM sharp.",urgent
+"IMMEDIATE: Fire drill scheduled for 11 AM today. Please familiarize yourself with evacuation routes.",urgent
+"System critical: Database migration must be completed before midnight to avoid data loss.",urgent
+"Your project partner has dropped the course. You need to inform the professor by tomorrow.",urgent
+"NOTICE: Your hostel room allocation expires today. Visit the housing office before 5 PM.",urgent
+"Deadline extended to Wednesday 5 PM for the hackathon registration. Few spots remaining.",urgent
+"Hi, just sharing the slides from today's presentation for your reference.",informational
+"The cafeteria menu for this week has been posted on the notice board.",informational
+"Git repository has been migrated to the new server. Update your remotes.",informational
+"Your package has been delivered and left at the front desk.",informational
+"Seminar on Cyber Security will be held on Friday. All CSE students are encouraged to attend.",informational
+"Updated syllabus for Data Structures course is now available on the LMS.",informational
+"Results for mid-semester exams have been published. Check the university portal.",informational
+"New Wi-Fi password for the campus network has been set. Contact IT for details.",informational
+"Professor will hold extra office hours this Thursday from 2-4 PM.",informational
+"Alumni meetup scheduled for next month. Registration link in the student portal.",informational
+"MEGA SALE: Laptops starting at just $299! Perfect for students. Free delivery included.",promotional
+"Start your coding journey today with our free beginner bootcamp. Limited seats!",promotional
+"Flat 50% off on all textbooks this back-to-school season. Order online now.",promotional
+"Try our meal plan subscription — first week absolutely free! No credit card required.",promotional
+"New gym membership rates for students: Just $15/month. Sign up at the front desk.",promotional
+"Cloud hosting for students: Get $100 free credits with your .edu email address.",promotional
+"Pre-order the latest smartphone and get free wireless earbuds worth $79.",promotional
+"Student exclusive: Free 6-month premium music streaming subscription.",promotional
+"Photography contest: Submit your best shots and win prizes up to $500.",promotional
+"Learn a new language for free! Download our app and start with 5-minute daily lessons.",promotional

@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env
+**/.env
+
+# Trained models
+*.pkl
+*.joblib
+
+# Gmail API credentials & tokens
+credentials.json
+token.json
+token.pickle
+**/credentials.json
+**/token.json
+**/token.pickle
+**/auth_url.txt
+
+# Database
+*.db
+*.sqlite3
+**/*.db
+**/*.sqlite3
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
